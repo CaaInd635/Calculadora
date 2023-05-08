@@ -1,5 +1,6 @@
 import java.util.*;
 <<<<<<< HEAD
+<<<<<<< HEAD
 public class Calculadora {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -35,6 +36,9 @@ public class Calculadora {
         return ans;
     }
 =======
+=======
+
+>>>>>>> ramma-mod
 public class Calculadora
 {
 	public static void main(String args[]) {
