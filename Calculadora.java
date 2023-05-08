@@ -40,5 +40,4 @@ public class Calculadora
 	public static int mod(int a,int b){
 		return a%b;
 	}
->>>>>>> ramma-mod
 }
