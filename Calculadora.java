@@ -8,7 +8,7 @@ public class Calculadora
 		pri=sc.nextInt();
 		System.out.print("Ingrese segundo numero:");
 		sec=sc.nextInt();
-		System.out.println("Escriba el numero segun la accion: 1.Sumar 2.Restar 3.Multiplicar");
+		System.out.println("Escriba el numero segun la accion: 1.Sumar 2.Restar 3.Multiplicar 4.Dividir 5.Modulo");
 		eleccion=sc.nextInt();
 		System.out.print("Resultado: ");
 		switch(eleccion){
@@ -18,6 +18,10 @@ public class Calculadora
 			       break;
 			case 3:System.out.print(mul(pri,sec));
 			       break;
+			case 4:System.out.print(div(Double.valueOf(pri),sec));
+			       break;
+			case 5:System.out.print(mod(pri,sec));
+			       break;			
 		}
 			
 	}
@@ -29,5 +33,11 @@ public class Calculadora
 	}
 	public static int mul(int a,int b){
 		return a*b;
+	}
+	public static double div(double a,int b){
+		return a/b;
+	}
+	public static int mod(int a,int b){
+		return a%b;
 	}
 }
